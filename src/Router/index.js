@@ -9,7 +9,7 @@ const router = <HashRouter>
     <App>
         <Route path="/detail" component={Detail}/>
         <Route path="/home" component={Home}/>
-        <Route path="/aaa" component={PictureSelect}/>
+        <Route path="/" component={PictureSelect}/>
     </App>
 </HashRouter>
 

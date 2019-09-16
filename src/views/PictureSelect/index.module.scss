@@ -1,0 +1,101 @@
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+ul,
+li,
+ol,
+dl,
+dt,
+dd,
+input,
+figure,
+figcaption {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  display: block;
+  border: 0;
+}
+
+input {
+  outline: none;
+}
+
+body {
+  font-size: 14px;
+  font-family: "微软雅黑";
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+header,
+footer,
+nav,
+figure,
+figcaption,
+aside,
+article,
+section,
+main {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  font-size: 100px
+}
+
+.input{
+    width:20px;
+    height: 20px;
+}
+.div{
+    height: 25px;
+    .flo{
+        float: left;
+    }
+    .p{
+        float: left;
+        height: 14px;
+        line-height: 22px;
+    }
+}
+.picture{
+    width: 117px;
+    height: 117px;
+    position: relative;
+    float: left;
+    border:1px solid #eee;
+    .pos{
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }
+}
